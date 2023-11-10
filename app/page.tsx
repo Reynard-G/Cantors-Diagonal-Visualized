@@ -41,7 +41,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col items-center">
       <h1 className="text-4xl font-bold text-center mt-8 px-4">Cantor&apos;s Diagonal Argument</h1>
 
-      <Modal backdrop="blur" isOpen={isOpen} onOpenChange={onOpenChange}>
+      <Modal backdrop="blur" size="2xl" isOpen={isOpen} onOpenChange={onOpenChange}>
         <ModalContent>
           {(onClose) => (
             <>
